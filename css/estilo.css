@@ -1,0 +1,449 @@
+/*Menu*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto condensed", sans-serif;
+}
+
+.navbar {
+  background: #fff;
+  padding: 2% 0;
+  font-size: 1.7rem;
+
+}
+
+.navbar-default {
+  margin: 0;
+}
+
+.navbar-brand {
+  padding-top: 0%;
+  min-height: 15px;
+  padding: 0px 20px 0px 50px;
+}
+
+.navbar-brand img {
+  padding-left: 60px;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:hover {
+  color: #c2b0af;
+}
+
+.border-bottom {
+  color: #c2b0af;
+  background-color: #;
+  margin-top: 0px;
+  font-size: 1.7rem;
+  font-weight: 200;
+  line-height: 2.0;
+  text-align: left;
+  padding-top: 8px;
+
+}
+
+.col-md-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-top: 0.5rem;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+p {
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+#home {
+  height: 100%;
+}
+
+#home-cover {
+  height: 100%;
+  background-image: url(../img/service.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#home-heading h3 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700px;
+  margin: 15px 0 15px 0;
+}
+
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.btn-general {
+  border-color: #FFFAFA;
+  border-width: 2px;
+  border-radius: .3rem;
+  padding: 12px 26px 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-color: #FFFAFA;
+  color: #FFFAFA;
+}
+
+.btn-white:hover,
+btn-white:focus {
+  background-color: #FFFAFA;
+  color: #41464b;
+}
+
+.btn-general {
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: .3rem;
+  padding: 12px 26px 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn-blue {
+  border-color: #c2b0af;
+  color: #c2b0af
+}
+
+.btn-blue:hover,
+btn-blue:focus {
+  background-color: #c2b0af;
+  color: #fff;
+}
+
+#home-cover,
+#home-heading,
+#home-btn {
+  animation-duration: .5s;
+}
+
+#home-cover {
+  animation-delay: .1s;
+  animation-duration: .5s;
+}
+
+#home-heading {
+  animation-delay: .1s;
+  animation-duration: .5s;
+}
+
+#home-btn {
+  animation-delay: .1s;
+  animation-duration: .5s;
+}
+
+.content-box {
+  padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: #aa9c9c;
+  margin: 0 auto 30px auto;
+}
+
+.service-item {
+  padding: 20px 0 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.service-item-icon i {
+  color: #896e64;
+  float: left;
+  padding: 15px;
+  margin-right: 25px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+  color: #fff;
+  background-color: #c2b0af;
+  border-radius: .5rem;
+}
+
+.service-item-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.service-item-desc p {
+  margin: 0;
+  padding-left: 85px;
+}
+
+#about-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url(../img/mouse.jpg);
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent;
+}
+
+#about-content-box {
+  float: left;
+  height: 700px;
+  width: 200px;
+}
+
+#about-content-box-outer {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#about-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about .content-title h3 {
+  text-align: left;
+}
+
+#about .content-title-underline {
+  margin: 0 0 30px 0;
+}
+
+#about-desc p {
+  margin-bottom: 30px;
+}
+
+.row-no-gutters [class*=col-1] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid {
+  padding-left: 50px;
+  position: relative;
+  text-align: left;
+}
+/*Google Maps*/
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 3%;
+  top: 10%;
+  height: 100%;
+  position: absolute;
+}
+/*Rodapé*/
+.footer-distributed {
+  background-color: #2c1f1c;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*RODAPÉ ESQUERDO*/
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/*Logo da companhia*/
+.footer-distributed img {
+  color: #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed span {
+  color: #c1c2af;
+}
+
+/*lINKS RODAPÉ*/
+.footer-distributed .footer-links {
+  color: #fff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/*Rodapé Center*/
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #fff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #fff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: inline-block;
+  color: #fff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Rodapé Direito*/
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #c2b0af;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #c1c2af;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #c1c2af;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #2c1f1c;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margim-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
