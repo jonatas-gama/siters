@@ -26,7 +26,7 @@
 </head>
 <!--SETA VOLTAR AO TOPO-->
 <div id="topo">
-    <span style='font-size:130%;'><a href='#' style=’display:croll_top;position:fixed;bottom:5px;><img alt='Voltar ao Topo da Página'   src='img/seta.png'  height='30' width='30' title='Voltar ao Topo da Página'  /></a></span>
+    <span style='font-size:130%;'><a href='#' style=’display:croll_top;position:fixed;bottom:5px;right:5px;><img alt='Voltar ao Topo da Página'   src='img/seta.png'  height='30' width='30' title='Voltar ao Topo da Página'  /></a></span>
 </div>
 <body>
     <!--Contato-->
@@ -305,26 +305,26 @@
 
 
                         <div class="col-sm-6">
-                            <form action="form.php" class="contact-form" method="post">
+                            <form action="envia.php" name="envia_contato" class="contact-form" method="post">
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="nm" placeholder="Nome"
+                                    <input type="text" class="form-control" id="name" name="nome" placeholder="Nome"
                                         required="">
                                 </div>
 
 
                                 <div class="form-group form_left">
-                                    <input type="email" class="form-control" id="email" name="em" placeholder="Email"
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email"
                                         required="">
                                 </div>
 
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="phone"
                                         onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10"
-                                        placeholder="Telefone" required="">
+                                        placeholder="Telefone" name="telefone" required="">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB"
+                                    <textarea class="form-control textarea-contact" rows="5" id="comment" name="mensagem"
                                         placeholder="Digite sua mensagem..." required=""></textarea>
                                     <br>
                                     <button class="btn btn-primary" type="submit" value="submit">Enviar</button>
@@ -354,7 +354,7 @@
                     <a href="#">Contato</a>
                 </p>
 
-                <p class="footer-company-name">RS Soluçoes &copy; 2019</p>
+                <p class="footer-company-name">RS Soluçoes &copy; <?=date('Y');?></p>
             </div>
 
             <div class=" footer-center">
