@@ -18,6 +18,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 .bg-parallax {
@@ -361,8 +362,3 @@ h4.team-member-designation {
         text-align: center;
     }
 }
-
-
-
-
-
