@@ -118,7 +118,7 @@ btn-blue:focus {
     color: #6a5650;
     float: left;
     padding: 15px;
-    margin-right: 25px;
+    margin-right: 11px;
     width: 75px;
     height: 75px;
     text-align: center;
@@ -139,6 +139,7 @@ btn-blue:focus {
 .service-item-desc p {
     margin: 0;
     padding-left: 85px;
+    text-align: justify;
 }
 
 #about-bg-diagonal {
@@ -257,6 +258,7 @@ h4.team-member-designation {
     height: 100% auto;
     color: white;
     padding-top: 30px;
+    padding-bottom: 15px;
     margin: 0px;
 }
 
@@ -349,7 +351,7 @@ h4.team-member-designation {
     background-color: #6a5650;
     border-radius: 20px;
     border: none;
-    width: 125px;
+    width: 135px;
     display: block;
     margin: 0 auto;
     margin-top: 0px;
@@ -361,8 +363,3 @@ h4.team-member-designation {
         text-align: center;
     }
 }
-
-
-
-
-
