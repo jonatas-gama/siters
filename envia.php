@@ -22,7 +22,11 @@ try {
     $mail->Host       = 'smtp.office365.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
     $mail->Username   = 'atendimento@ideawork.com.br';                     // SMTP username
+<<<<<<< HEAD
     $mail->Password   = '44QQawett$$@SSd';                               // SMTP password
+=======
+    $mail->Password   = '@tendimento@rs123';                               // SMTP password
+>>>>>>> f30d6b3c3407c05fd04320efc0fe77617c917fde
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
