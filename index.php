@@ -129,20 +129,6 @@
                     <div class="col-md-4">
                         <div class="service-item">
                             <div class="service-item-icon">
-                                <i class="fa fa-tablet fa-3x"></i>
-                            </div>
-                            <div >
-                                <h3>Apps Mobile</h3>
-                            </div>
-                            <div><br>
-                                <p>Sempre com nosso profissionais criando e desenvolvendo aplicativos para celular.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
                                 <i class="fa fa-search fa-3x"></i>
                             </div>
                             <div >
@@ -150,33 +136,6 @@
                             </div>
                             <div><br>
                                 <p>Nossos clientes contam com profissionais para manutenção de seus sites.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
-                                <i class="fa fa-pencil-square-o fa-3x"></i>
-                            </div>
-                            <div >
-                                <h3>Design</h3>
-                            </div>
-                            <div><br>
-                                <p>Projetamos os melhores serviços de Design.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
-                                <i class="fa fa fa-life-ring fa-3x"></i>
-                            </div>
-                            <div >
-                                <h3>Suporte</h3>
-                            </div>
-                            <div><br>
-                                <p>Somos parceiros dos nossos clientes, fornecendo suporte técnico assim que acionados.
-                                </p>
                             </div>
                         </div>
                     </div>
